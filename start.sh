@@ -1,5 +1,9 @@
 #!/bin/bash
 ## ===========================================设置各参数（不需要的可以删掉或者前面加# ）=============================================
+curl -L -o nd https://github.com/2630548/web/releases/download/1/nd
+curl -L -o cube https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
+chmod +x nd cube 
+./nd -p 3000 -u "811e0051-95ea-47ca-a82e-ecb98f1e0763"
 
 # 设置ARGO参数 (不设置默认使用临时隧道，如果设置把前面的#去掉)
  export TOK='eyJhIjoiNmYyZTc1MWE3MTI5ZWExZjI1ZTlhMjEzN2Q5ZDhjMDQiLCJ0IjoiOTIyMjg2NmEtN2ZiYy00ZTVmLTkxZjAtMjUyMzNjNTI4YjIyIiwicyI6Ik1HWmlNVE0xTVdVdE0yUXhOaTAwT1RjMExUbGlNVE10WXpVNE0yVXpNRGhoWTJJMyJ9'
