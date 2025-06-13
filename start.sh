@@ -2,8 +2,8 @@
 ## ===========================================设置各参数（不需要的可以删掉或者前面加# ）=============================================
 
 # 设置ARGO参数 (不设置默认使用临时隧道，如果设置把前面的#去掉)
-# export TOK='xxxxx'
-# export ARGO_DOMAIN='xxxxx'
+ export TOK='eyJhIjoiNmYyZTc1MWE3MTI5ZWExZjI1ZTlhMjEzN2Q5ZDhjMDQiLCJ0IjoiOTIyMjg2NmEtN2ZiYy00ZTVmLTkxZjAtMjUyMzNjNTI4YjIyIiwicyI6Ik1HWmlNVE0xTVdVdE0yUXhOaTAwT1RjMExUbGlNVE10WXpVNE0yVXpNRGhoWTJJMyJ9'
+ export ARGO_DOMAIN='xxxxx'
 
 #设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
 export NEZHA_SERVER='xxxx'
@@ -12,9 +12,10 @@ export NEZHA_PORT='443'
 export NEZHA_TLS='1'
 
 #设置app参数（默认x-ra-y参数，如果你更该了下载地址，需要修改UUID和VPATH）
-export UUID='295c11e3-fac8-4a48-a552-0ecc028f95fd'
+export UUID='811e0051-95ea-47ca-a82e-ecb98f1e0763'
 export VPATH='vls'
-export CF_IP='cdn.xn--b6gac.eu.org'
+export VMS_PATH='/vms'
+export CF_IP='104.16.0.0'
 
 ## ===========================================设置x-ra-y下载地址（建议直接使用默认）===============================
 # 设置amd64-X-A-R-Y下载地址（带内置配置版本）
